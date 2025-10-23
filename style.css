@@ -7,4 +7,6 @@ font-family: 'Roboto', inter; /* font */
 text-align: center; /* center text horizontally */
 margin: 0;
 padding-top: 100px; /* moves text down from the top */
+
+font-size: 60px;
 }
