@@ -1,1 +1,11 @@
-WHICH ISSSS???
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Inter, inter;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 3em
+}
