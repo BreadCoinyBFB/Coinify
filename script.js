@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-  alert("Welcome to The Coinify Website.");
-});
+console.log("Welcome to Coinify.");
