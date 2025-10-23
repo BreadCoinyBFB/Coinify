@@ -1,11 +1,11 @@
 body {
   background-color: #000000;
   color: #ffffff;
-  font-family: Inter, inter;
+  font-family: Arial, Roboto;
   text-align: center;
 }
 
 h1 {
-  margin-top: 20px;
-  font-size: 3em
+  margin-top: 50px;
+  font-size: 3em;
 }
