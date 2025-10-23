@@ -1,1 +1,4 @@
-
+body {
+  background: linear-gradient(to right,#ff4d00, #ffa500); /*gradient orange/red*/
+  color: #fff;
+}
