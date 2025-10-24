@@ -3,10 +3,7 @@ body {
   font-family: 'Roboto', inter; /* default font for all text */
   text-align: center; /* optional: all text horizontally centered  */
   margin: 0;
-}
-
-h1 {
   padding-top: 100px; /* padding boii */
-  color: #fff;
+  color: #ffffff;
   font-size: 50px;
 }
