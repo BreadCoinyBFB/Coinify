@@ -1,12 +1,12 @@
 body {
-  background: linear-gradient(to right,#ff4d00, #ffa500); /*gradient orange/red*/
-  font-family: 'Roboto', inter; /* default font for all text */
-  text-align: center; /* optional: all text horizontally centered  */
+  background: linear-gradient(to right, #ff4d00, #ffa500); /* gradient orange/red */
+  font-family: 'Roboto', Inter, sans-serif; /* default font for all text */
+  text-align: center; /* center all text */
   margin: 0;
 }
 
 h1 {
-  padding-top: 100px; /* padding boii */
+  padding-top: 100px; /* top spacing */
   color: #ffffff;
   font-size: 50px;
 }
@@ -22,3 +22,4 @@ h2 {
   font-size: 22px;
   font-weight: 500;
   color: #ffffff;
+}
