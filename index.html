@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coinify</title>
+  <title>Coinify Developer Release</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Coinify Developer Release</h1>
   <p>Welcome to Coinify (CoinifyBCB)!</p>
   <h2>
-    Coinify, also known as "CoinifyBCB", is created by BreadCoinyBFB. 
-    However, it is still in Developer Release — currently at Version 0.1 (not a game btw). 
-    Stay tuned for updates! Hopefully it’ll be finished soon.
+    Coinify, also known as "CoinifyBCB", is created by BreadCoinyBFB.  
+    It’s still in Developer Release (Version 0.1). Not a game btw.  
+    Stay tuned for updates!
   </h2>
-  <script src="script.js"></script>
+
+  <!-- The only button -->
+  <button id="howcoinifyworks">How Coinify Works</button>
+
+  <!-- Script that makes the button open the subpage -->
+  <script>
+    document.getElementById("howcoinifyworks").onclick = function() {
+      window.location.href = "howcoinifyworks/index.html";
+    };
+  </script>
 </body>
 </html>
