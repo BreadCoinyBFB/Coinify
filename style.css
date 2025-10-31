@@ -38,7 +38,7 @@ button {
   cursor: pointer;
   font-weight: bold;
   width: 925px;
-  height: 70px
+  height: 140px
 }
 button:hover {
   background-color: orange;
