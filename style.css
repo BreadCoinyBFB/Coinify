@@ -34,11 +34,11 @@ button {
   color: white;
   padding: 10px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bold;
-  width: 250px;
-  height: 140px; /* this is allowed */
+  width: 925px;
+  height: 50px; /* this is allowed */
 }
 
 button:hover {
