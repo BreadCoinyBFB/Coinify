@@ -1,42 +1,58 @@
+/* page */
 body {
   background: linear-gradient(to right, #ff4d00, #ffa500);
-  font-family: 'Roboto', Inter, sans-serif;
+  font-family: 'Roboto', 'Inter', sans-serif;
   text-align: center;
   margin: 0;
-  height: 100vh; /* make full screen height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertical center */
-  align-items: center; /* horizontal center */
 }
 
+/* heading */
 h1 {
+  padding-top: 100px;
   color: #ffffff;
   font-size: 50px;
-  margin-bottom: 10px;
 }
 
+/* subtitle */
 p {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 40px;
-  max-width: 600px;
+}
+
+/* description */
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* prevent mobile font auto-scaling */
+html {
+  -webkit-text-size-adjust: none;
 }
 
 button {
-  background-color: black;
-  border: 2px solid orange;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  font-size: 18px;
-  cursor: pointer;
-  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  padding: 12px 32px;
   width: 250px;
-  height: 60px; /* stretch height a bit */
+  height: 140px;              /* 👈 this makes it tall */
+  background-color: #000000;
+  border: 2px solid #ffa500;
+  color: #ffffff;
+  font-size: 22px;            /* slightly larger text fits better */
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
+  box-sizing: border-box;
 }
 
-button:hover {
-  background-color: orange;
-  color: black;
+button:hover,
+button:focus {
+  background-color: #ffa500;
+  color: #000000;
+  transform: translateY(-2px);
 }
