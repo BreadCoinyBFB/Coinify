@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coinify Developer Release</title>
   <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 </head>
 <body>
   <h1>Coinify Developer Release</h1>
@@ -14,15 +17,21 @@
     It’s still in Developer Release (Version 0.1). Not a game btw.  
     Stay tuned for updates!
   </h2>
+  <h3>Version 0.2</h3>
 
-  <!-- The only button -->
-  <button id="howcoinifyworks">How Coinify Works</button>
+<button id="howcoinifyworks">How Coinify Works</button>
+<button id="countdown">Countdown</button>
 
-  <!-- Script that makes the button open the subpage -->
-  <script>
-    document.getElementById("howcoinifyworks").onclick = function() {
-      window.location.href = "howcoinifyworks/index.html";
-    };
+<script>
+  // Button 1 → Goes to How Coinify Works page
+  document.getElementById("howcoinifyworks").onclick = function() {
+    window.location.href = "howcoinifyworks/index.html";
+  };
+
+  // Button 2 → Goes to Test Page
+  document.getElementById("countdown").onclick = function() {
+    window.location.href = "countdown/index.html"; // <– create this folder and index.html later
+  };
   </script>
 </body>
 </html>
